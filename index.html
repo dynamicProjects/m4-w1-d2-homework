@@ -44,18 +44,18 @@
             data: {
                shoplist: ['Salad','Eggs','Apples','Chicken'] 
             },
-            // Using mounted lifecycle hook to fire event listener once everything is ready to go, 
-            // data is bounded and instance mounted to the DOM
-            mounted() {
-    // create event listener for button using vanilla js
-    document.querySelector("#btn").addEventListener('click',()=>{
-            let item= document.querySelector("#inputItem").value;
-            app.shoplist.push(item);
+    //         // Using mounted lifecycle hook to fire event listener once everything is ready to go, 
+    //         // data is bounded and instance mounted to the DOM
+    //         mounted() {
+    // // create event listener for button using vanilla js
+    // document.querySelector("#btn").addEventListener('click',()=>{
+    //         let item= document.querySelector("#inputItem").value;
+    //         app.shoplist.push(item);
 
-            //clear text in text box
-            item.value= ' ';
-        })
-        }
+    //         //clear text in text box
+    //         item.value= ' ';
+    //     })
+    //     }
         })
     
     </script>
